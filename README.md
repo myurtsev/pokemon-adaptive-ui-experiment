@@ -2,7 +2,7 @@
 
 > A Vue 3 Pokemon showcase app experimenting with adaptive UI design based on available images
 
-[Demo/Installation](https://vue3-typescript-tailwind-starter.vercel.app/)
+[Live Demo](https://myurtsev.github.io/pokemon-adaptive-ui-experiment/)
 
 ## Features
 
