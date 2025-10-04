@@ -2,6 +2,8 @@
 
 > A Vue 3 Pokemon showcase app experimenting with adaptive UI design based on available images
 
+![Pokemon Adaptive UI Preview](./public/preview.png)
+
 [Live Demo](https://myurtsev.github.io/pokemon-adaptive-ui-experiment/)
 
 ## Features
