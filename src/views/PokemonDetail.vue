@@ -150,7 +150,7 @@
 </template>
 
 <script setup lang="ts">
-import { ref, onMounted } from 'vue';
+import { ref, onMounted, watch } from 'vue';
 import { useRoute } from 'vue-router';
 import { usePokemon } from '~/composables/usePokemon';
 import { useColorThief } from '~/composables/useColorThief';
@@ -194,6 +194,10 @@ const loadPokemonData = async () => {
 };
 
 onMounted(() => {
+  loadPokemonData();
+});
+
+watch(() => route.params.id, () => {
   loadPokemonData();
 });
 </script>
