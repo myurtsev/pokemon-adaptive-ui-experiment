@@ -8,7 +8,7 @@ import './index.css'
 const app = createApp(App)
 
 const router = createRouter({
-  history: createWebHistory(),
+  history: createWebHistory('/pokemon-adaptive-ui-experiment/'),
   routes: routes,
 })
 
